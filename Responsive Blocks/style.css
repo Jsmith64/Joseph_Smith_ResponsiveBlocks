@@ -1,0 +1,112 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 1%;
+   }
+   #header{
+    min-height: 150px;
+    width: 97%;
+    background-color: green;
+    margin: 10px;
+    
+
+   }
+   #navigation{
+    min-height: 300px;
+    width: 20%;
+    background-color: blue;
+    margin: 10px;
+    display: inline-block;
+   }
+   #naviagtion, #main_content{
+       vertical-align: top;
+   }
+   #main_content{
+    min-height: 400px;
+    width: 75%;
+    background-color: red;
+    margin: 10px;
+    vertical-align: top;
+    display: inline-block;
+    
+   }
+  
+   #advertisement{
+    min-height: 110px;
+    width: 75%;
+    background-color: purple;
+    margin: 40px auto;
+    margin-bottom: 10px;
+
+    
+   }
+   .subcontents{
+    height: 300px;
+    min-width: 30%;
+    background-color: yellow;
+    vertical-align: top;
+    margin: 1% 1%;
+    display: inline-block;
+   }
+
+@media only screen and (max-width: 480px){
+.sm{
+    height: 300px;
+    min-width: 70%;
+    background-color: yellow;
+    margin: 2%;
+    display: block;
+    }
+    #main_content{
+    width: 97%;
+    margin: 10px auto;
+    display: block;
+    padding-top: 2%;
+}
+    #navigation{
+        display: none;
+    }
+}
+@media only screen and (min-width: 481px){
+.md{
+    height: 300px;
+    min-width: 45%;
+    background-color: yellow;
+    vertical-align: top;
+    margin: 2%;
+    display: inline-block;
+    }
+    #main_content{
+        width: 97%;
+        margin: 10px auto;
+        display: block;
+    }
+    #navigation{
+    display: none;
+    }
+}
+@media only screen and (min-width: 1024px){
+.lg{
+    height: 300px;
+    min-width: 30%;
+    background-color: yellow;
+    vertical-align: top;
+    margin: 1%;
+    display: inline-block;
+    }
+    #main_content{
+    width: 75%;
+    display: inline-block;
+    margin: 10px;
+    }
+    #navigation{
+    display: inline-block;
+    }
+}
